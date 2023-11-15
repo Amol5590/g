@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>campus events and activities calender</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 40%;
+    border: 3px solid white;
+    border-radius: 50px;
+}
+.navbar{
+    display: flex;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.nav-list{
+    width: 50%;
+    
+    display: flex;
+
+    align-items: center;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a:hover{
+    text-decoration: none;
+    color: red;
+
+}
+
+.rightNav{
+    
+    width: 50%;
+    text-align: right;
+    padding: 0 23px;
+}
+
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid gray;
+    border-radius: 9px;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url('https://media.istockphoto.com/id/1461630610/photo/group-of-happy-students-checking-results-on-laptop-while-sitting-on-college-campus-concept-of.jpg?s=2048x2048&w=is&k=20&c=-wzkKOD5YqbAFcNjiCzttZ51WZmJE-FTRTPGHft4_nE=');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.firstSection{
+    height: 100vh;
+}
+
+.firstHalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondHalf{
+    width: 30%;
+}
+.secondHalf img{
+    width: 90%;
+    
+    border: 4px solid white;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+}
+
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+}
+
+.text-big{
+    font-size: 40px;
+}
+.text-small{
+    font-size: 18;
+}
+.btn{
+    padding: 8px 20px;
+    margin: 7px 3px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    cursor: pointer;
+
+}
+.btn-sm{
+    padding: 5px 10px;
+    vertical-align: middle;
+}
+
+    </style>
+</head>
+<body>
+    <nav class="navbar background">
+        <ul class="nav-list">
+            <div class="logo"><img src="https://media.istockphoto.com/id/1461630610/photo/group-of-happy-students-checking-results-on-laptop-while-sitting-on-college-campus-concept-of.jpg?s=2048x2048&w=is&k=20&c=-wzkKOD5YqbAFcNjiCzttZ51WZmJE-FTRTPGHft4_nE=" alt="logo"></div>
+            <li> <a href="#home"> Home</a> </li>
+            <li> <a href="#about"> About</a> </li>
+            <li> <a href="#activity"> Activities</a> </li>
+            <li> <a href="#event"> Events</a> </li>
+            <li> <a href="#contact"> Contact Us</a> </li>
+        </ul>
+        <div class="rightNav">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sn">search</button>
+        </div>
+    </nav>
+
+    <section class="background firstSection">
+        <div class="box-main">
+            <div class="firstHalf">
+                <p class="text-big">Campus Events and Activities</p>
+                <p class="text-small">Campus events and activities play a pivotal role in fostering a vibrant and engaging
+                     university community. These gatherings serve as a nexus for students, faculty, and staff to come together,
+                      exchange ideas, and build lasting connections. From academic lectures and workshops to cultural festivals, sporting
+                       events, and community service initiatives, the spectrum of activities on campus is diverse and enriching. These
+                        events contribute not only to the educational experience but also to the overall well-being of individuals by 
+                        providing opportunities for personal and social development. Moreover, they showcase the diversity and creativity
+                         inherent in the university environment, encouraging a sense of belonging and pride among participants. Whether
+                          it's a guest speaker sparking intellectual curiosity or a lively cultural fair celebrating global
+                         perspectives, campus events create a dynamic atmosphere that goes beyond the classroom,
+                         contributing significantly to the holistic growth of the university community.
+                </p>
+                <div class="buttons">
+                    <button class="btn">subscribe</button>
+                    <button class="btn">watch video</button>
+                </div>
+            </div>
+
+            <div class="secondHalf">
+                <img src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="future image">
+
+            </div>
+        </div>
+
+    </section>
+
+    
+    
+
+    <section class="secRight">
+        <div class="paras">
+        <P class="sectionTag text-big"> Events</P>
+        <p class="sectionSubTag text-small"> College events are the heartbeat of campus life, injecting energy and excitement
+        into the student experience. Ranging from academic conferences to social gatherings and sports tournaments,
+        these events serve as a crucial bridge between the academic and social aspects of college. They offer students
+        a chance to explore their passions, connect with peers, and broaden their horizons. Beyond the curriculum,
+        college events contribute to the overall development of students, fostering a sense of community and creating 
+        memories that last a lifetime. Whether it's a thought-provoking lecture or a spirited music festival, these gatherings
+        enrich the college in making it not just an educational pursuit but a holistic and memorable adventure.</p>
+        </div>
+        <div class="thumbnail">   
+            <img src="" alt="event image" class="imgFluid">
+        </div>
+    </section>
+
+
+
+    <section class="secLeft">
+        <div class="paras">
+        <P class="sectionTag text-big"> Activities</P>
+        <p class="sectionSubTag text-small"> On campus, a rich tapestry of activities unfolds, fostering a dynamic and engaging
+             environment for students. Diverse clubs and organizations cater to a spectrum of interests, whether academic, cultural
+             , or hobby-based, providing platforms for like-minded individuals to connect. Sports and recreation play a pivotal role,
+              with intramural leagues, fitness classes, and sports clubs contributing to both physical well-being and a sense of 
+              community. The campus pulses with energy during events and performances, from concerts and theater productions to 
+              art exhibitions and guest lectures, offering intellectual and cultural enrichment. Student government initiatives 
+              drive leadership development and governance discussions, while community service opportunities instill a sense of 
+              social responsibility. Social events, academic support services, career resources, recreational facilities, and 
+               and innovation hubs collectively shape a holistic campus experience. From spiritual gatherings to wellness 
+               programs, the campus becomes a nexus of personal growth, skill development, and vibrant social interaction,
+                enriching the collegiate journey for every student.</p>
+        </div>
+        <div class="thumbnail">   
+            <img src="" alt="event image" class="imgFluid">
+        </div>
+    </section>
+
+
+
+</body>
+</html>
